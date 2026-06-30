@@ -17,12 +17,9 @@ curl -fsSL https://deb.nodesource.com/setup_25.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-### 2. Pindahkan folder ke server
-Pilih salah satu:
+### 2. Install
+Clone Repository ke server:
 ```bash
-# via scp dari laptop ini:
-scp -r /home/unknown/sysapp user@IP_SERVER:~/
-
 # atau via git kalau sudah di-push ke repo
 git clone https://github.com/IotTechId/sysapp sysapp
 ```
