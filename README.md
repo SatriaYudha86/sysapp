@@ -20,7 +20,6 @@ sudo apt-get install -y nodejs
 ### 2. Install
 Clone Repository ke server:
 ```bash
-# atau via git kalau sudah di-push ke repo
 git clone https://github.com/IotTechId/sysapp sysapp
 ```
 
